@@ -5,7 +5,9 @@
  */
 
 /* rskead custom */
-
+.email {
+  text-align: center;
+}
 
  body {
   font-family: 'Lato';
