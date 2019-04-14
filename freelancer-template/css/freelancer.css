@@ -4,7 +4,10 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
  */
 
-body {
+/* rskead custom */
+
+
+ body {
   font-family: 'Lato';
 }
 
@@ -49,15 +52,15 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #18BC9C;
+  background-color: #ff0069;
 }
 
 hr.star-dark {
-  border-color: #2C3E50;
+  border-color: #cc0055;
 }
 
 hr.star-dark:after {
-  color: #2C3E50;
+  color: #800035;
   background-color: white;
 }
 
@@ -124,7 +127,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #18BC9C;
+  color: #ff4d97;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -132,7 +135,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #18BC9C;
+  color: #ff4d97;
 }
 
 #mainNav .navbar-toggler {
@@ -157,11 +160,11 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #18BC9C;
+    background: #ff4d97;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #18BC9C;
+    background: #ff4d97;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -216,7 +219,7 @@ header.masthead h2 {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: rgba(24, 188, 156, 0.9);
+  background-color: #FF0069;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -317,7 +320,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #18BC9C;
+  color: #CC0055;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -327,20 +330,20 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2C3E50;
+  background-color: #800035;
   color: #fff;
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: #80264B;
 }
 
 a {
-  color: #18BC9C;
+  color: #FF0069;
 }
 
 a:focus, a:hover, a:active {
-  color: #128f76;
+  color: #CC0055;
 }
 
 .btn {
@@ -348,37 +351,37 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #18BC9C !important;
+  background-color: #FF0069 !important;
 }
 
 .bg-secondary {
-  background-color: #2C3E50 !important;
+  background-color: #800035 !important;
 }
 
 .text-primary {
-  color: #18BC9C !important;
+  color: #FF0069 !important;
 }
 
 .text-secondary {
-  color: #2C3E50 !important;
+  color: #CC0055 !important;
 }
 
 .btn-primary {
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: #FF0069;
+  border-color: #FF0069;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #128f76;
-  border-color: #128f76;
+  background-color: #CC0055;
+  border-color: #CC0055;
 }
 
 .btn-secondary {
-  background-color: #2C3E50;
-  border-color: #2C3E50;
+  background-color: #80264b;
+  border-color: #80264b;
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #1a252f;
-  border-color: #1a252f;
+  background-color: #800035;
+  border-color: #800035;
 }
