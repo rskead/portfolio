@@ -14,3 +14,4 @@ https://www.linkedin.com/in/roseskead/
 
 ### Template
 https://startbootstrap.com/themes/freelancer/
+My Bootstrap 4 template is licenced under MIT License
