@@ -64,7 +64,7 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #ff0069;
+  background-color: #cc0055;
 }
 
 hr.star-dark {
@@ -72,7 +72,7 @@ hr.star-dark {
 }
 
 hr.star-dark:after {
-  color: #800035;
+  color: #cc0055;
   background-color: white;
 }
 
@@ -139,7 +139,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #ff4d97;
+  color: #ff0069;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -147,7 +147,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #ff4d97;
+  color: #ff0069;
 }
 
 #mainNav .navbar-toggler {
@@ -172,11 +172,11 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #ff4d97;
+    background: #ff0069;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #ff4d97;
+    background: #ff0069;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -231,7 +231,7 @@ header.masthead h2 {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: #FF0069;
+  background-color: #ff4d97;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -363,7 +363,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #FF0069 !important;
+  background-color: #cc0055 !important;
 }
 
 .bg-secondary {
