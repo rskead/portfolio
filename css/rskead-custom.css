@@ -1,0 +1,44 @@
+/* nav bar */
+.navbar-brand, .nav-item, .page-section-heading, .mb-4 {
+    font-family: 'Domine', serif;
+}
+#mainNav {
+    background-color: #d83974 !important;
+}
+/* intro */
+.masthead-heading {
+    font-family: "Domine";
+}
+.masthead {
+    padding-top: calc(5rem + 75px);
+    color: #000 !important;
+}
+.bg-primary {
+    background-color: #fff !important;
+}
+
+#demo-reel-div-iframe {
+    padding-bottom: 56.25%; 
+    position: relative; 
+    display: block; 
+    width: 100%; 
+    height: 100%;
+    border: none;
+}
+#demo-reel-iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin-top: 40px;
+}
+/* page section headings */
+.page-section-heading {
+    padding-bottom: calc(5rem + 15px);
+}
+/* about section */
+.profile-pic {
+    width: 100%;
+    border-radius: 10px;
+}
