@@ -3,14 +3,14 @@
     font-family: 'Domine', serif;
 }
 #mainNav {
-    background-color: #d83974 !important;
-    color: #000 !important;
+    background-color: #d83974;
+    color: #000;
 }
 .menu-text {
     font-family: "Domine";
     font-size: 1.5rem;
 }
-/* intro */
+/* masthead */
 .masthead-heading {
     font-family: "Domine";
 }
@@ -21,6 +21,24 @@
 }
 .bg-primary {
     background-color: #fff !important;
+}
+.one {
+    color: #da4144;
+}
+.two {
+    color: #d83974;
+}
+.three {
+    color: #c049a0;
+}
+.four {
+    color: #9260c2;
+}
+.five {
+    color: #4772d1;
+}
+.six {
+    color: #007ece;
 }
 
 #demo-reel-div-iframe {
