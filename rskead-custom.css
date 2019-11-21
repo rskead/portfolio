@@ -106,10 +106,7 @@ button.bg-primary:focus {
     width: 100% !important;
 }
 /* about section */
-.profile-pic {
-    width: 100%;
-    border-radius: -10px;
-}
+
 /* contact */
 .contact-text {
     font-size: 1.5rem;
