@@ -102,6 +102,9 @@ button.bg-primary:focus {
     width: 100% !important;
     height: auto !important;
 }
+.mp4vids {
+    width: 100% !important;
+}
 /* about section */
 .profile-pic {
     width: 100%;
