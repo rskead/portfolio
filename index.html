@@ -331,9 +331,14 @@
 
       <!-- Contact Section Form -->
       <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-          <form name="sentMessage" id="contactForm" novalidate="novalidate" data-netlify="true" method="POST" enctype="application/x-www-form-urlencoded">
+        <div class="col-lg-12 mx-auto">
+
+          <!-- contact text -->
+          <p class="lead text-center">fill out the form below and let's get in touch!</p>
+
+          <!-- contact form -->
+          <form name="sentMessage" id="contactForm" novalidate="novalidate" data-netlify="true" method="POST"
+            enctype="application/x-www-form-urlencoded">
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
                 <label for="name">Name</label>
@@ -345,30 +350,30 @@
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
                 <label for="email">Email Address</label>
-                <input name="email" class="form-control" id="email" type="email" placeholder="Email Address" required="required"
-                  data-validation-required-message="Please enter your email address.">
+                <input name="email" class="form-control" id="email" type="email" placeholder="Email Address"
+                  required="required" data-validation-required-message="Please enter your email address.">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
                 <label for="phone">Phone Number</label>
-                <input name="phone" class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required"
-                  data-validation-required-message="Please enter your phone number.">
+                <input name="phone" class="form-control" id="phone" type="tel" placeholder="Phone Number"
+                  required="required" data-validation-required-message="Please enter your phone number.">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
                 <label for="message">Message</label>
-                <textarea name="message" class="form-control" id="message" rows="5" placeholder="Message" required="required"
-                  data-validation-required-message="Please enter a message."></textarea>
+                <textarea name="message" class="form-control" id="message" rows="5" placeholder="Message"
+                  required="required" data-validation-required-message="Please enter a message."></textarea>
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <br>
             <div id="success"></div>
-            <div class="form-group">
+            <div class="form-group submit-btn">
               <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
             </div>
           </form>
@@ -384,7 +389,7 @@
       <div class="row">
 
         <!-- Footer Social Icons -->
-        <div class="col-lg-12 mb-5 mb-lg-0">
+        <div class="col-lg-6 mb-5 mb-lg-0">
           <h4 class="mb-4">social media</h4>
           <a class="btn btn-outline-light btn-social mx-1"
             href="https://www.youtube.com/channel/UCJNvt0j1CHK9LRLKL4kcddg" target="_blank">
@@ -399,6 +404,20 @@
           <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/rskead" target="_blank">
             <i class="fab fa-fw fa-github"></i>
           </a>
+        </div>
+
+        <!-- my info -->
+        <div class="col-lg-6 mb-5 mb-lg-0">
+          <h4 class="mb-4">my contact info</h4>
+          <p class="lead mb-0">
+            (807) 630-9315
+          </p>
+          <p class="lead mb-0">
+            rskeaddesigns@gmail.com
+          </p>
+          <p class="lead mb-0">
+            roseskead99@gmail.com
+          </p>
         </div>
 
       </div>
@@ -646,7 +665,8 @@
                 <!-- Portfolio Modal - Text -->
                 <p class="mb-5"></p>
                 <p class="mb-5">Software: Adobe Illustrator, Animate, After Effects, Premiere Pro</p>
-                <p class="mb-5">This is an animated video I collaborated on with my good friend Jayden Fisher. I designed most of the graphics as well as animated the avatars talking.</p>
+                <p class="mb-5">This is an animated video I collaborated on with my good friend Jayden Fisher. I
+                  designed most of the graphics as well as animated the avatars talking.</p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   Close Window
@@ -674,7 +694,7 @@
             <div class="row justify-content-center">
               <div class="col-lg-8">
                 <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary mb-0">evil snowman</h2>
+                <h2 class="portfolio-modal-title text-secondary mb-0">evil snowmen</h2>
                 <!-- Icon Divider -->
                 <div class="divider-custom">
                   <div class="divider-custom-line"></div>
@@ -684,11 +704,21 @@
                   <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/submarine.png" alt="">
+                <img class="img-fluid rounded mb-5" src="img/modal/snowmen-1.jpg" alt="Evil Snowmen Rendered Image 1">
+                <img class="img-fluid rounded mb-5" src="img/modal/snowmen-2.jpg" alt="Evil Snowmen Rendered Image 2">
+                <img class="img-fluid rounded mb-5" src="img/modal/snowmen-3.jpg" alt="Evil Snowmen Rendered Image 3">
+                <img class="img-fluid rounded mb-5" src="img/modal/snowmen-4.jpg" alt="Evil Snowmen Rendered Image 4">
+                <!-- youtube video -->
+                <div id="snowman-div-iframe">
+                  <iframe id="snowman-iframe" src="https://www.youtube.com/embed/HHuo4tPE9qA"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                  </iframe>
+                </div>
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
-                  nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae?
-                  Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <p class="mb-5"></p>
+                <p class="mb-5">Software: 3DS Max, Mocha</p>
+                <p class="mb-5">This was my first time creating characters in a scene environment, animating a scene,
+                  and matchmoving a character.</p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   Close Window
@@ -716,7 +746,7 @@
             <div class="row justify-content-center">
               <div class="col-lg-8">
                 <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary mb-0">turtle 3D sculpt</h2>
+                <h2 class="portfolio-modal-title text-secondary mb-0">turtle scuplt</h2>
                 <!-- Icon Divider -->
                 <div class="divider-custom">
                   <div class="divider-custom-line"></div>
@@ -726,11 +756,22 @@
                   <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/submarine.png" alt="">
+                <img class="img-fluid rounded mb-5" src="img/modal/turtle-1.jpg" alt="Turle Process Image 1">
+                <img class="img-fluid rounded mb-5" src="img/modal/turtle-2.jpg" alt="Turle Process Image 2">
+                <img class="img-fluid rounded mb-5" src="img/modal/turtle-3.jpg" alt="Turle Process Image 3">
+                <img class="img-fluid rounded mb-5" src="img/modal/turtle-4.jpg" alt="Turle Process Image 4">
+                <img class="img-fluid rounded mb-5" src="img/modal/turtle-5.jpg" alt="Turle Process Image 5">
+                <!-- youtube video -->
+                <div id="turtle-div-iframe">
+                  <iframe id="turtle-iframe" src="https://www.youtube.com/embed/O6d1BLLWY4o"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                  </iframe>
+                </div>
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
-                  nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae?
-                  Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <p class="mb-5"></p>
+                <p class="mb-5">Software: Mudbox, 3DS Max, Premiere Pro</p>
+                <p class="mb-5">This is a 3D sculpt I made and painted in Mudbox. After that, I imported the sculpt into
+                  3DS Max and animated a turntable.</p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   Close Window
@@ -768,11 +809,24 @@
                   <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/submarine.png" alt="">
+                <img class="img-fluid rounded mb-5" src="img/modal/cleanwater-1.jpg" alt="Storyboard Image">
+                <img class="img-fluid rounded mb-5" src="img/modal/cleanwater-2.jpg"
+                  alt="Collected Storyboard/Assets Image">
+                <!-- youtube video -->
+                <div id="intbannerad-div-iframe">
+                  <iframe id="intbannerad-iframe" src="https://www.youtube.com/embed/lcVTqAlEQAw"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                  </iframe>
+                </div>
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
-                  nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae?
-                  Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <p class="mb-5"></p>
+                <p class="mb-5">Software: Adobe Illustrator, Animate, Premiere Pro</p>
+                <p class="mb-5">Code: HTML, CSS, Javascript</p>
+                <p class="mb-5">This is an social justice interactive banner ad I created to raise awareness on the
+                  crisis happening on First Nation communities all across Canada. There are multiple reservations that
+                  don't have access to clean, safe water like cities do. Most are under a drinking water boil advisory,
+                  which is unnacceptable. The goal is to make users aware of the situation and get them to clink the
+                  link to learn more about how to help.</p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   Close Window
@@ -810,11 +864,23 @@
                   <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/submarine.png" alt="">
+                <img class="img-fluid rounded mb-5" src="img/modal/mystery-1.jpg" alt="Mystery Process Image 1">
+                <img class="img-fluid rounded mb-5" src="img/modal/mystery-2.jpg" alt="Mystery Process Image 2">
+                <img class="img-fluid rounded mb-5" src="img/modal/mystery-3.jpg" alt="Mystery Process Image 3">
+                <!-- youtube video -->
+                <div id="mystery-div-iframe">
+                  <iframe id="mystery-iframe" src="https://www.youtube.com/embed/9vwdsr1xL3w"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                  </iframe>
+                </div>
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
-                  nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae?
-                  Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <p class="mb-5"></p>
+                <p class="mb-5">Software: Adobe Illustrator, Animate</p>
+                <p class="mb-5">Code: HTML, CSS, JavaScript</p>
+                <p class="mb-5">Mystery is a simple game prototype about a girl who wakes up in a hospital with amnesia
+                  after a night out in the city. The doctors and nurses couldn't explain what happened or what's going
+                  on with her. Determined to find out what happened to her and these strange new senses and abilities,
+                  she runs out into the city again.</p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   Close Window
@@ -836,7 +902,7 @@
 
   <!-- Contact Form JavaScript -->
   <!-- <script src="js/jqBootstrapValidation.js"></script> -->
-  <!-- <script src="js/contact_me.js"></script> --> 
+  <!-- <script src="js/contact_me.js"></script> -->
 
   <!-- Custom scripts for this template -->
   <script src="js/freelancer.min.js"></script>
