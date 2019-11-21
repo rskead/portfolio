@@ -39,8 +39,9 @@ button.bg-primary:focus {
 }
 .masthead {
     padding-top: calc(5rem + 75px);
-    color: #a7a7a7 !important;
+    color: #343a40 !important;
     background-color: #fff !important;
+
 }
 .bg-primary {
     background-color: #fff !important;
@@ -63,7 +64,8 @@ button.bg-primary:focus {
 .six {
     color: #007ece;
 }
-/* videos */
+/* VIDEOS */
+/* youtube on main page */
 #demo-reel-div-iframe {
     padding-bottom: 56.25%; 
     position: relative; 
@@ -80,15 +82,14 @@ button.bg-primary:focus {
     position: absolute;
     margin-top: 40px;
 }
-#animation-div-iframe {
+/* youtube inside modals */
+#animation-div-iframe, #snowman-div-iframe, #turtle-div-iframe, #intbannerad-div-iframe, #mystery-div-iframe {
     padding-bottom: 56.25%; 
     position: relative; 
     display: block; 
-    width: 100%; 
-    height: 100%;
     border: none;
 }
-#animation-iframe {
+#animation-iframe, #snowman-iframe, #turtle-iframe, #intbannerad-iframe, #mystery-iframe {
     left: 0;
     top: 0;
     height: 100%;
@@ -96,12 +97,11 @@ button.bg-primary:focus {
     position: absolute;
     margin-bottom: 20px;
 }
+/* mp4 video in modal */
 #eo-app-video {
     width: 100% !important;
     height: auto !important;
 }
-/* page section headings */
-
 /* about section */
 .profile-pic {
     width: 100%;
@@ -138,6 +138,14 @@ button.bg-primary:focus {
   
 .btn-primary:focus, .btn-primary.focus {
     box-shadow: 0 0 0 0.2rem rgba(60, 198, 171, 0.5);
+}
+.submit-btn {
+    display: flex !important;
+    justify-content: center !important;
+  }
+/* portfolio thumbnails */
+.portfolio .portfolio-item .portfolio-item-caption {
+    background-color: rgba(216, 57, 115, 0.719) !important;
 }
 /* modal */
 .portfolio-modal .close {
