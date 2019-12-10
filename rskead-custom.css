@@ -106,6 +106,9 @@ button.bg-primary:focus {
     width: 100% !important;
 }
 /* about section */
+.profile-pic {
+    align-content: center !important;
+}
 
 /* contact */
 .contact-text {
