@@ -9,7 +9,7 @@
     color: #007ece !important;
 }
 .nav-link:hover {
-    color: #c049a0 !important;
+    color: #007ece !important;
 }
 #mainNav {
     background-color: #fff !important;
@@ -17,7 +17,7 @@
 .menu-text {
     font-family: "Domine";
     font-size: 1.5rem;
-    color: #000 !important;
+    color: #343a40 !important;
 }
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #d83974 !important;
@@ -31,6 +31,7 @@ button.bg-primary:focus {
   color: #fff !important;
   /* meun button active/hover */
 }
+/* section headings */
 
 /* masthead */
 .masthead-heading {
@@ -106,8 +107,14 @@ button.bg-primary:focus {
     width: 100% !important;
 }
 /* about section */
+.profile-pic {
+    align-content: center !important;
+}
 
 /* contact */
+form {
+    background-color: #007ece !important;
+}
 .contact-text {
     font-size: 1.5rem;
     text-align: center;
