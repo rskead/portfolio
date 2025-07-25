@@ -1,0 +1,337 @@
+/* box-sizing */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+
+/* WEBSITE CUSTOM DEFAULTS */
+/* header + main + footer */
+body {
+    font-family: "Host Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
+    width: 90vw;
+    /* margin: 3rem auto; */
+    margin: 4rem auto 2rem auto;
+
+    /* lavender blush 1 */
+    /* background-color: #f6e8ea; */
+
+    /* yellow */
+    /* background-color: #EDBF10; */
+
+    /* neon light blue */
+    background-color: #51E5FF;
+
+    /* black licorice */
+    background-color: #1F0812;
+    color: whitesmoke;
+
+    /* orange */
+    /* background-color: #FFC145; */
+}
+
+
+
+/* HEADER */
+
+
+
+/* Portfolio intro container*/
+
+.portfolio-intro {
+    /* whole logo + text container */
+
+    /* flex option */
+    /* display: flex;
+    flex-wrap: wrap; */
+
+    /* spacing at bottom before nav container */
+    margin-bottom: 4rem;
+}
+
+header img {
+    /* logo image */
+    height: 7.5rem;
+
+    /* SPACING: centered for mobile-first design */
+    margin: auto;
+
+    /* remove for flex option */
+    display: block;
+
+    /* background-color: aqua; */
+}
+
+.intro-text {
+    /* text only container */
+    /* background-color: beige; */
+
+    /* spacing above text container after logo */
+    margin: 2rem 0 0 0;
+    padding: 0 0 0 0;
+}
+
+h1,
+h2,
+h3 {
+    /* background-color: rgb(244, 221, 225); */
+}
+
+header h1,
+header h2,
+header h3 {
+    text-align: center;
+    /* background-color: brown; */
+}
+
+h1 {
+    font-size: 2.75rem;
+}
+
+header h1 {
+    /* SPACING */
+    margin: 0 0 1rem 0;
+    padding: 0 0 0 0;
+
+    /* color: #6805b4; */
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+header h2 {
+    /* SPACING */
+    margin: 0 0 1rem 0;
+    padding: 0 1.25rem 0 1.25rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+header h3 {
+    /* SPACING */
+    margin: 0 0 0 0;
+    padding: 0 3rem 0 3rem;
+
+    font-weight: 100;
+}
+
+
+/* Nav-bar */
+
+/* header nav {
+    background-color: crimson;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px;
+} */
+
+header ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+
+    /* margin: 0; */
+
+    /* remove spacing from list-style bullets */
+    padding-left: 0;
+
+    /* background-color: chocolate; */
+}
+
+header a {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+
+    color: #edbf10;
+
+    /* SPACING */
+    margin: 0 0.5rem 0 0.5rem;
+    padding: 0 1rem 0 1rem;
+
+    /* background-color: black; */
+}
+
+header a:hover {
+    background-color: indigo;
+}
+
+
+
+/* MAIN */
+
+
+
+/* About section */
+
+main section {
+    /* vertical spacing from each other + centered */
+    margin: 1.25rem auto;
+    /* inner cushioning */
+    padding: 1.25rem 1.25rem;
+
+    /* background-color: coral; */
+}
+
+main h2 {
+    /* T R B L or TB RL */
+    margin: 0 0 15px 0;
+}
+
+#about ul {
+    padding-left: 1rem;
+}
+
+.indent {
+    margin-left: 1.75rem;
+}
+
+
+/* Portfolio intro section */
+
+.flex-previews {
+    /* whole container */
+
+    /* SPACING */
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    /* remove list bullets */
+    list-style: none;
+}
+
+/* .img-preview {
+    border-radius: 2rem;
+} */
+
+#portfolio img {
+    /* images */
+    max-width: 100%;
+    padding-bottom: 1.5rem;
+}
+
+
+
+/* FOOTER */
+
+
+
+/* MEDIA QUIERIES / BREAKPOINTS */
+
+
+
+/* Tablet or larger */
+@media (min-width: 800px) {
+
+    /* website defaults */
+    body {
+        width: 75vw;
+        margin: 5rem auto 2rem auto;
+    }
+
+    /* flex option for portfolio intro section */
+    /* .portfolio-intro {
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: center;
+    }
+
+    header img {
+        margin: 0 2rem 0 0;
+    }
+
+    .intro-text {
+        margin: 0;
+    }
+
+    header h1,
+    header h2,
+    header h3 {
+        text-align: left;
+        padding: 0 0 0 0;
+    } */
+
+    /* larger portfolio intro section */
+    header img {
+        height: 10rem;
+    }
+
+    h1 {
+        font-size: 3.4375rem;
+    }
+
+    header h1 {
+        /* SPACING */
+        margin: 0 0 1rem 0;
+        padding: 0 0 0 0;
+
+        /* color: #6805b4; */
+    }
+
+    h2 {
+        font-size: 1.5625rem;
+    }
+
+    header h2 {
+        /* SPACING */
+        margin: 0 0 1rem 0;
+        padding: 0 1.25rem 0 1.25rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    header h3 {
+        /* SPACING */
+        margin: 0 0 0 0;
+        padding: 0 3rem 0 3rem;
+
+        font-weight: 100;
+    }
+
+    /* portfolio flexbox */
+
+    .flex-previews {
+        /* whole container */
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .img-preview {
+        /* image container */
+        flex: 50%
+    }
+
+
+    #portfolio img {
+        /* image */
+        max-width: 100%;
+    }
+
+    .img-left {
+        padding-right: 0.75rem;
+    }
+
+    .img-right {
+        padding-left: 0.75rem;
+    }
+
+
+}
+
+/* Desktop */
